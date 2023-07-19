@@ -1,9 +1,9 @@
-name = "gitcord"
+name = "gitcord-main"
 main = "./build/index.js"
 workers_dev = true
 compatibility_date = "2022-12-18"
 
-kv_namespaces = [{ binding = "DB", id = "8f9623bc767b4339a30b35c89a5867f4" }] # Change this with your own KV namespace ID.
+kv_namespaces = [{ binding = "DB", id = "f9b5195ff25d45aa9d77999ecca8d7e4" }] # Change this with your own KV namespace ID.
 
 [build]
 command = "npm run build"
@@ -17,5 +17,5 @@ command = "npm run build"
 # - GITHUB_WEBHOOK_SECRET - your secret for webhooks, https://generate-secret.vercel.app/32 if you want a nice secure secret.
 # - DISCORD_WEBHOOK       - your discord webhook link, remember to make sure the webhook points to a forum channel.
 
-IGNORED_USERS = "renovate[bot],github-actions[bot],cloudflare-pages[bot]" # Users to ignore, separated by commas, nobody wants to see renovate's PRs.
+IGNORED_USERS = "renovate[bot],linear[bot],changeset-bot[bot],socket-security[bot],buapebot" # Users to ignore, separated by commas, nobody wants to see renovate's PRs.
 REDIRECT_URL = "https://github.com/buape" # The URL the user will be redirected to if they visit the Cloudflare Worker route directly.
