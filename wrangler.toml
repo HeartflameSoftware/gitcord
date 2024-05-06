@@ -18,4 +18,4 @@ command = "npm run build"
 # - DISCORD_WEBHOOK       - your discord webhook link, remember to make sure the webhook points to a forum channel.
 
 IGNORED_USERS = "renovate[bot],linear[bot],changeset-bot[bot],socket-security[bot],buapebot" # Users to ignore, separated by commas, nobody wants to see renovate's PRs.
-REDIRECT_URL = "https://github.com/buape" # The URL the user will be redirected to if they visit the Cloudflare Worker route directly.
+REDIRECT_URL = "https://github.com/heartflamesoftware" # The URL the user will be redirected to if they visit the Cloudflare Worker route directly.
